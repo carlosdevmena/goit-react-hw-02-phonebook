@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+  }
+  
+  .container-filter {
+    position: relative;
+  }
+  
+  .label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea las etiquetas al centro */
+  }
+  
+  .input-filter {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5%;
+    border: 2px solid brown;
+    transition: width 0.3s, box-shadow 0.3s, border 0.3s;
+  }
+  
+  .input-filter:hover,
+  .input-filter:focus {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid linear-gradient(to right, #ff8c00, #ff4b00);
+  }
+
+
+.button-delete {
+  margin-left: 10px;
+  background-color: brown;
+  color: white;
+  border-radius: 50%;
+}
+
+.button-delete:hover {
+  transform: scale(1.1);
+}
